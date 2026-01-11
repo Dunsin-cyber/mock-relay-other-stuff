@@ -1,0 +1,8 @@
+[network]
+address = "0.0.0.0"
+port = 8080
+
+[limits]
+messages_per_sec = 1000
+max_event_size = 102400
+# Ensure NIP-47 kinds aren't blocked
